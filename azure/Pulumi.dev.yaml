@@ -1,2 +1,19 @@
+name: azure
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Ejemplo de pulumi con python y azure
+
+
 config:
-  azure-native:location: WestUS
+  azure-native:location: westcentralus
+  azure:values: 
+    proyecto: pulumi
+    tags:
+      centrocostos: 88888
+      area: el area
+    address_prefixes: 10.0.0.0/16
+    subnet_address_prefixes: 
+    - 10.0.1.0/24
+    - 10.0.2.0/24
