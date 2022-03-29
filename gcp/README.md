@@ -12,5 +12,11 @@ gcloud config set project pulumi-28324
 gcloud auth application-default login
 
 # Crear el proyecto base con GCP
-pulumi new azure-python
+pulumi new gcp-python
 ![](./assets/Screenshot%20from%202022-03-28%2015-39-32.png).
+
+# Aplicar la infraestructura
+pulumi up --stack dev
+
+# Eliminar la infraestructura
+pulumi destroy --stack dev --yes
