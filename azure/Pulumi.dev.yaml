@@ -1,11 +1,3 @@
-name: azure
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Ejemplo de pulumi con python y azure
-
-
 config:
   azure-native:location: westcentralus
   azure:values: 
