@@ -1,0 +1,5 @@
+python 3.10.2
+azure-cli 2.34.1
+awscli 2.4.27
+pulumi 3.27.0
+gcloud 378.0.0
