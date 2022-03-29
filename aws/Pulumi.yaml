@@ -1,0 +1,6 @@
+name: awsImpl
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Ejemplo de pulumi con python para AWS
